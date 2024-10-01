@@ -18,6 +18,8 @@ import Services from "./components/Layout/Services.js";
 
 function App() {
   return (
+
+
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Header />}>
@@ -26,23 +28,11 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contactme" element={<ContactMe />} />
-        <Route path="/*" element={<NoFound />} />
+        <Route path="*" element={<NoFound />} />
       </Route>
     </Routes>
-    <Card/>
-    <Card/>
-    <Card/>
     <Footer/>
   </BrowserRouter>
-    
-    
-    
-    // <>
-    //   <Header/>
-    //   <Card/>
-    //   <Footer/>
-    // </>
-
 
   );
 }
