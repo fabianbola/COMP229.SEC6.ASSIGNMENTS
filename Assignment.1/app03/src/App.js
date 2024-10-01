@@ -30,6 +30,8 @@ function App() {
       </Route>
     </Routes>
     <Card/>
+    <Card/>
+    <Card/>
     <Footer/>
   </BrowserRouter>
     
