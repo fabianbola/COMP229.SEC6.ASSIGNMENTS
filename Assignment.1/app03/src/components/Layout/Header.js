@@ -39,7 +39,7 @@ function Headers(){
 
             </ul>            
           </div>
-
+          <Outlet />
             {/* <div className='topnav'>
                 <a className="active" href="#home">Home</a>
                 <a href="#news">News</a>
