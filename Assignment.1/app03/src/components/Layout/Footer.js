@@ -5,7 +5,7 @@ function footer(){
             <br/>
             <br/>
             <footer>
-                <p className="text-muted text-center">&copy;&nbsp;Copyright Julio Vinicius A. de Carvalho - COMP229 Web Application Development</p>
+                <p className="text-muted text-center">&copy;&nbsp;Copyright Fabian Bolanos A. - COMP229 Web Application Development, third semester</p>
             </footer>
         </div>
     );
