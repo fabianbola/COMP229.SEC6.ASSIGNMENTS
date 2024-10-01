@@ -1,6 +1,6 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
-import logo from '../../assets/Logo.jpg'
-import HeaderStyle from "./Header.css"
+import logo from '../../assets/Logo.jpg';
+import './Header.css';
 
 function Headers(){
     return(
@@ -11,7 +11,7 @@ function Headers(){
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
             
 
-            <ul className={HeaderStyle}>
+            <ul className="navbar">
               <li>
                 <NavLink to="/">
                   <i> </i> Home

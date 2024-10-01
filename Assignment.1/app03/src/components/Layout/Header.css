@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    background-color: rgba(1, 1, 77, 0.728);
+    width: 100%;
+    position: relative; /* To order the page */
+    float: left; /* To order the page on one specific side*/
+    top: -150px;
+}
+
+.nav-list {
+    list-style-type: none;/* To delate the boulets */
+    margin: 10px;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline; /* to create a list horizontal  */
+}
+
+.nav-list li a {
+    text-decoration: none; /* To delate the undercore in the link*/
+    color: white; /* To change de color of the letter in the link*/
+    font-size: 18px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover { /* To change the color on hover on the link text */
+    color: rgba(1, 1, 77, 0.728);;
+    background-color: white;
+}
