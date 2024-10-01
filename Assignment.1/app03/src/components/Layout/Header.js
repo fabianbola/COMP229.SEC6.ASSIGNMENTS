@@ -10,38 +10,44 @@ function Header(){
             </center>
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
             
-
-            <ul>
-              <li>
-                <NavLink to="/">
-                  <i> </i> Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/about">
-                  <i></i> About
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/services">
-                  <i></i> Service
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/projects">
-                  <i></i> Projects
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/contactme">
-                  <i></i> Contact me
-                </NavLink>
-              </li>
-
-            </ul>            
+            <nav className="navbar">
+              <ul className="nav-list">
+                <li>
+                  <NavLink to="/">
+                    <i> </i> Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/about">
+                    <i></i> About
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/services">
+                    <i></i> Service
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/projects">
+                    <i></i> Projects
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/contactme">
+                    <i></i> Contact me
+                  </NavLink>
+                </li>
+              </ul>  
+            </nav>
           </div>
           <Outlet />
         </>
+
+
+
+
+
+
 
     );
 }

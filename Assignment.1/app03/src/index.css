@@ -1,54 +1,28 @@
-div{
+  /* div{
     border: 1px solid  rgb(232, 142, 39);
+  } */
+
+  html, body {
+    height: 100%; /* Para asegurar que la altura esté al 100% de la página */
+    margin: 0;
+    padding: 0;
   }
 
-html {
-    position: relative;
-    min-height: 100%;
-  }
   body {
-    font: "Lucida Grande", Helvetica, Arial, sans-serif;
-    padding-bottom:20px;
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   }
 
   footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 40px;
-    width: 100%;
-    background-color:  rgba(1, 1, 77, 0.728);
-    text-align: center;
+    position: fixed; /* Fijo en la parte inferior de la página */
+    bottom: 0; /* Mantener el footer en la parte inferior */
+    width: 100%; /* Asegurar que el footer cubra todo el ancho */
+    background-color: rgba(1, 1, 77, 0.728); /* Fondo del footer */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado arriba y abajo */
     font-size: small;
   }
-.logo{
-    max-height: 100px;
-    width: auto;
-    text-align: center;
-    display: inline-block;
-    margin-inline: auto;
-}
 
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-  }
-  
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
- .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
- .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+  footer p {
+      margin: 0; /* Eliminar márgenes extra alrededor del texto */
   }

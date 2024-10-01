@@ -21,16 +21,18 @@ function App() {
 
 
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Header />}>
-        <Route index element={<Home />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contactme" element={<ContactMe />} />
-        <Route path="*" element={<NoFound />} />
-      </Route>
-    </Routes>
+      <div className="content"> {/* Apply content class here */}
+      <Routes>
+        <Route path="/" element={<Header />}>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contactme" element={<ContactMe />} />
+          <Route path="*" element={<NoFound />} />
+        </Route>
+      </Routes>
+    </div>
     <Footer/>
   </BrowserRouter>
 
