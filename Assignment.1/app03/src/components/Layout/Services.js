@@ -13,6 +13,8 @@ const Services = () => {
         <Card pic={serviceMeth} tittle="Agile Methodology Coach" description="This is the description of the webdite"/>
         <Card pic={serviceBackDev} tittle="Back Development" description="This is the description of the webdite"/>
     </center>
+    <p>I’m always excited to take on new projects, so if you have an idea or collaboration in mind, feel free to reach out!</p>
+
     </>
 };
 

@@ -36,7 +36,7 @@
         text-decoration: none; /* Elimina el subrayado del texto */
         color: white; /* Color del texto */
         font-size: 18px;
-        padding: 15px 20px; /* Espaciado alrededor del texto */
+        padding: 15px 0px; /* Espaciado alrededor del texto */
         text-align: center; /* Centra el texto */
         width: 100%; /* Asegúrate de que el enlace ocupe el ancho completo del contenedor */
         transition: background-color 0.3s ease-in-out; /* Transición suave en hover */
