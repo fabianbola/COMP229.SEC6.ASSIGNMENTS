@@ -7,7 +7,7 @@
     }
 
     .navbar {
-        background-color: rgba(1, 1, 77, 0.728); /* Change background color */
+        background-color: rgba(1, 1, 77, 0.888); /* Change background color */
         width: 100%; /* Full width for horizontal bar */
         display: flex; /* Flexbox to align items */
         justify-content: center; /* Center items horizontally */
@@ -43,7 +43,7 @@
     }
     
     .nav-list li a:hover {
-        color: rgba(1, 1, 77, 0.728); /* Cambia el color del texto en hover */
+        color: rgba(1, 1, 77, 0.888); /* Cambia el color del texto en hover */
         background-color: white; /* Cambia el fondo al pasar el ratón */
-        border: 1px solid  rgba(1, 1, 77, 0.728);    
+        border: 1px solid  rgba(1, 1, 77, 0.888)    ;    
     }

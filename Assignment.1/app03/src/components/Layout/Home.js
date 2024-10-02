@@ -1,5 +1,5 @@
-import Button from '../Items/Button.js';
-
+import Button from '../Items/ButtonStandar.js';
+import ProfilePhoto from '../../assets/ProfilePhoto.jpg'
 import BodyText from '../Items/BodyText.js';
 
 const Home = () => {
@@ -10,8 +10,9 @@ const Home = () => {
         Subtittle="Mission Statement"
         Section2="My mission is to deliver high-quality software solutions that solve real-world problems. I believe in continuous learning and improvement, and I am always open to new challenges."
         />
-        <Button NameButton='Learn More About Me'/>
-        <Button NameButton='View My Projects'/>
+        <img className="cardImage" src={ProfilePhoto} alt="Card picture"></img>
+            <Button NameButton="Learn More About Me"/>
+        <Button NameButton="View My Projects"/>
 
 
     </>
