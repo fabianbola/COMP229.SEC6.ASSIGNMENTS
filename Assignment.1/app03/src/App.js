@@ -12,10 +12,6 @@ import NoFound from "./components/Layout/NoFound.js";
 import Projects from "./components/Layout/Projects.js";
 import Services from "./components/Layout/Services.js";
 
-
-
-
-
 function App() {
   return (
 

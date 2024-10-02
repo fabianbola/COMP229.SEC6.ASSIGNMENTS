@@ -1,6 +1,6 @@
-  /* div{
+  div{
     border: 1px solid  rgb(232, 142, 39);
-  } */
+  } 
 
   html, body {
     height: 100%; /* Para asegurar que la altura esté al 100% de la página */
@@ -12,8 +12,13 @@
     font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   }
 
+  h1{
+    color: rgb(24, 21, 21);
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
   footer {
-    position: fixed; /* Fijo en la parte inferior de la página */
     bottom: 0; /* Mantener el footer en la parte inferior */
     width: 100%; /* Asegurar que el footer cubra todo el ancho */
     background-color: rgba(1, 1, 77, 0.728); /* Fondo del footer */

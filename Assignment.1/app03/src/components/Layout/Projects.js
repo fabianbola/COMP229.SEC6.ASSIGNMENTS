@@ -1,13 +1,18 @@
+import bug from '../../assets/ProjectBug.jpeg'
+import samba from '../../assets/ProjectSamba.jpeg'
+
 import Card from '../Items/Card.js';
 
 
 const Projects = () => {
     return <>
-        <h1>My Projects changes</h1>;
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        <h1>My Projects</h1>;
+        <p>Los servicios mas relevantes</p>
+        <center>
+            <Card pic={bug} tittle="Bug Mach Game" description="This is the description of the webdite"/>
+            <Card pic={samba} tittle="Samba File Sharing" description="This is the description of the webdite"/>
+
+        </center>
     </>
 };
 
