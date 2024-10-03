@@ -10,10 +10,10 @@
 }
 
 .contentHome {
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -41,6 +41,7 @@
 
 .button-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 10px;
+    margin-top: 20px;
 }

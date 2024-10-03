@@ -9,9 +9,9 @@
     margin-bottom: 20px;
 }
 
-/* .cards-container {
+.cards-container {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
-} */
+    flex-wrap: wrap; /* Permite que las cartas se ajusten en varias filas si es necesario */
+}

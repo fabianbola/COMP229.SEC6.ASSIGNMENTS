@@ -6,7 +6,9 @@ function Header(){
     return(
         <>
             <center>
-            <img className='logo' src={logo} alt="Logo image" />
+              <Link to="/">
+                <img className='logo' src={logo} alt="Logo image" />
+              </Link>
             </center>
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
             
