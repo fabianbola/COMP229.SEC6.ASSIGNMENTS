@@ -2,6 +2,8 @@ import React from 'react';
 import './ServAndProj.css';
 import bug from '../../assets/ProjectBug.jpeg'
 import samba from '../../assets/ProjectSamba.jpeg'
+import DB from '../../assets/DataBase.jpg'
+
 import Card from '../Items/Card.js';
 
 
@@ -18,6 +20,7 @@ const Projects = () => {
                 <div className="cards-container">
                     <Card pic={bug} tittle="Bug Mach Game" description="Bug Mach Game is a web-based game where players catch moving bugs on the screen, built with JavaScript, HTML, and CSS. It highlights my skills in creating interactive and dynamic user experiences."/>
                     <Card pic={samba} tittle="Samba File Sharing" description="Samba File Sharing enables seamless file sharing across different systems within a network. I configured secure, cross-platform access to shared folders, allowing efficient collaboration while maintaining data integrity and security."/>
+                    <Card pic={DB} tittle="Real Stage Data Base" description="Real Stage Database is a project focused on designing and implementing a scalable database to manage real estate data efficiently. It handles property listings, client information, and transaction details, providing streamlined access and robust data management for real estate businesses.."/>
                 </div>
             </div>
     </>
