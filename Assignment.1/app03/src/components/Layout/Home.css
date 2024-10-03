@@ -2,27 +2,31 @@
 .home-container {
     padding: 20px;
     text-align: center;
-}
+} 
 
 .header h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.content {
-    
+.contentHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .text-section {
     flex: 1;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .image-section {
     flex: 1;
     min-width: 300px;
-    max-width: 400px;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;

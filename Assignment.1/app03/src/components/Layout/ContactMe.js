@@ -1,5 +1,7 @@
 import React from 'react';
 import './ContactMe.css';
+import Button from '../Items/ButtonStandar.js';
+
 
 const ContactMe = () => {
     return (
@@ -31,8 +33,9 @@ const ContactMe = () => {
                         <label htmlFor="message">Message:</label>
                         <textarea id="message" name="message" rows="4" required></textarea>
                     </div>
-
-                    <button type="submit" className="submitBtn">Send Message</button>
+                    <div className="button-container">
+                    <Button NameButton="Send Message" type="submit"/>
+                    </div>
                 </form>
             </div>
         </>

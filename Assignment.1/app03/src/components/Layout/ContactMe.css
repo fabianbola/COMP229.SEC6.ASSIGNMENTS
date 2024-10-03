@@ -21,6 +21,10 @@
     margin-bottom: 5px;
     font-weight: bold;
 }
+label {
+    font-weight: bold;
+    color:  rgba(1, 1, 77, 0.888);;
+}
 
 .formGroup input,
 .formGroup textarea {
@@ -43,4 +47,10 @@
 
 .submit-btn:hover {
     background-color: rgba(1, 1, 77, 0.728);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }

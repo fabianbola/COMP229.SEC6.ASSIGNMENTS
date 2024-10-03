@@ -1,6 +1,6 @@
-div{
+/* div{
   border: 1px solid  rgb(176, 0, 0)    ;    
-}  
+}   */
   
   html, body {
     height: 100%; /* Para asegurar que la altura esté al 100% de la página */
@@ -8,7 +8,8 @@ div{
     margin: 0;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.772);
-    margin: 0 auto }
+    margin: 0 auto 
+  }
 
   body {
     font-family: "Lucida Grande", Helvetica, Arial, sans-serif;

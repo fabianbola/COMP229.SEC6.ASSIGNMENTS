@@ -6,4 +6,6 @@
     border: none;
     cursor: pointer;
     margin: 15px;
+    max-width: 200px;
+    min-width: 170px;
 }
