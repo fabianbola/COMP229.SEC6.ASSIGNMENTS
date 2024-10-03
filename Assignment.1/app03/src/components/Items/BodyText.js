@@ -8,11 +8,8 @@ function BodyText(prop){
             <h2>{prop.Subtittle}</h2>
             <p>{prop.Section2}</p>
         </section>
-    </>
-        
+    </>   
     )
-
-
 }
 
 export default BodyText

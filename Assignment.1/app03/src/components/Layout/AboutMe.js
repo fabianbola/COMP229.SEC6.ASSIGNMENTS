@@ -2,6 +2,7 @@ import BodyText from '../Items/BodyText.js';
 import InstagramLogo from '../../assets/LogoIntagram.png'
 import LinkedingLogo from '../../assets/linkedin.png'
 import OutlookLogo from '../../assets/outlook.png'
+
 import '../Items/NetworkLogos.css'
 
 const About = () => {

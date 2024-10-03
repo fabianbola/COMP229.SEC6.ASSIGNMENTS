@@ -1,23 +1,42 @@
+import React from 'react';
+import './ContactMe.css';
 
 const ContactMe = () => {
-    return <>
-    <h1>Contact Me</h1>;
+    return (
+        <>
+            <h1>Contact Me</h1>
+            <div className="container">
+                <form action="index.html" method="GET" className="contactForm">
+                    <div className="formGroup">
+                        <label htmlFor="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required />
+                    </div>
 
-    {/* Contact me: <br> 
-                </p>
-                <p>
-                    <a href="mailto:fabian.bolanos.arcos@gmail.com">
-                    <img src="Imagenes/Gmail.png" alt="logo instagram fabian" height="50" width="50" style="padding-left: 20px;">
-                    </a>
-                    <a href="mailto:fabian.bolanos.arcos@gmail.com">fabian.bolanos.arcos@gmail.com</a>
-                </p>
-                <p>
-                    <a href="mailto:fabian.bolarcos@outlook.com">
-                    <img src="Imagenes/outlook.png" alt="logo instagram fabian" height="50" width="50" style="padding-left: 20px;">
-                    </a>
-                    <a href="mailto:fabian.bolarcos@outlook.com">fabian.bolarcos@outlook.com</a>
-                </p> */}
-    </>
+                    <div className="formGroup">
+                        <label htmlFor="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required />
+                    </div>
+
+                    <div className="formGroup">
+                        <label htmlFor="contactNumber">Contact Number:</label>
+                        <input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9]{10}" placeholder="1234567890" required />
+                    </div>
+
+                    <div className="formGroup">
+                        <label htmlFor="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+
+                    <div className="formGroup">
+                        <label htmlFor="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" className="submitBtn">Send Message</button>
+                </form>
+            </div>
+        </>
+    );
 };
 
 export default ContactMe;
