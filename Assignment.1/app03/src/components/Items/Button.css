@@ -1,0 +1,11 @@
+.bottom{
+    background-color: rgb(232, 142, 39);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    max-width: 200px;
+    min-width: 170px;
+}
