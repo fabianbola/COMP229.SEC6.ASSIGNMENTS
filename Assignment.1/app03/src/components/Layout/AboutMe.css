@@ -1,17 +1,39 @@
-h1 {
-    font-size: 2em;
+
+.about-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-p {
-    font-size: 1.2em;
+.body-text {
+    margin-bottom: 30px;
+}
+
+.follow-me {
     margin-top: 20px;
 }
 
-a {
-    text-decoration: none;
+.follow-me p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
-b {
-    font-weight: bold;
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }

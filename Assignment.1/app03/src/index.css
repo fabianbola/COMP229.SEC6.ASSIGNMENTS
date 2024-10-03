@@ -1,18 +1,34 @@
+div{
+  border: 1px solid  rgb(176, 0, 0)    ;    
+}  
+  
   html, body {
     height: 100%; /* Para asegurar que la altura esté al 100% de la página */
+    width: 98%; /* Para asegurar que el contenido no sea demasiado ancho */
     margin: 0;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.772);
-  }
+    margin: 0 auto }
 
   body {
     font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   }
 
-  h1, h2{
+  h1{
     color: rgb(232, 142, 39);
-    margin-left: 100px;
     margin-top: 50px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+  
+  h2, h3{
+    color: rgba(1, 1, 77, 0.888);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+
   }
 
   footer {

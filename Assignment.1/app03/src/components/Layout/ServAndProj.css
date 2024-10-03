@@ -1,0 +1,17 @@
+
+.services-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.textComplement p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+} */

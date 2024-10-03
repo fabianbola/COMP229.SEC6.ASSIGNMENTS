@@ -19,7 +19,7 @@ function Header(){
                 </li>
                 <li>
                   <NavLink to="/about">
-                    <i></i> About
+                    <i></i> About Me
                   </NavLink>
                 </li>
                 <li>
